@@ -11,18 +11,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body
-    class="flex min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
+    class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
   >
     <div
-      class="absolute top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
+      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
     ></div>
-
-    <!-- Sidebar -->
     <aside
-      class="w-[300px] fixed top-0 left-0 h-screen bg-blue-900 text-white flex flex-col p-6 text-center"
+      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 lg:h-screen sticky top-0 text-center"
     >
       <div class="mb-10">
         <img
@@ -74,8 +73,10 @@
     </aside>
 
     <!-- Nội dung chính -->
-    <main class="flex-1 ml-[300px] p-10 relative">
-      <div class="bg-white/95 rounded-xl p-8 shadow-md mt-6">
+    <main class="flex-grow min-w-0 p-6 sm:p-10">
+      <div
+        class="bg-white/95 rounded-xl shadow-md w-full mt-10 p-6 sm:p-10 mx-auto"
+      >
         <section>
           <h1 class="text-[#1e3a8a] text-3xl font-bold">
             Xin chào, tôi là Bảo Phạm!
@@ -121,7 +122,9 @@
         </section>
       </div>
 
-      <footer class="fixed bottom-0 right-0 p-2 pr-4">GA01</footer>
+        <footer class="text-right text-blue-900 font-semibold mt-8">
+          GA01
+        </footer>
     </main>
   </body>
 </html>
