@@ -1,153 +1,125 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang của Khánh</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang của Khánh</title>
 
-  <body
-    class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
-  >
-    <!-- 🔹 Logo góc phải -->
-    <div
-      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
-             max-[640px]:w-[120px] max-[640px]:h-[120px]"
-    ></div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
 
-    <!-- 🔹 Sidebar -->
-    <aside
-      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
+<body
+  class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800">
+  <!-- 🔹 Logo góc phải -->
+  <div class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
+             max-[640px]:w-[120px] max-[640px]:h-[120px]"></div>
+
+  <!-- 🔹 Sidebar -->
+  <aside class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
              transition-all duration-300 ease-in-out 
-             lg:h-screen lg:sticky lg:top-0"
-    >
-      <div class="mb-10">
-        <img
-          src="img/khanh.png"
-          onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';"
-          alt="Ảnh đại diện"
-          class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white"
-        />
-        <h1 class="text-xl font-semibold">Lâm Hữu Khánh</h1>
-        <p>Lập trình viên</p>
-      </div>
+             lg:h-screen lg:sticky lg:top-0">
+    <div class="mb-10">
+      <img src="img/khanh.png"
+        onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';" alt="Ảnh đại diện"
+        class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white" />
+      <h1 class="text-xl font-semibold">Lâm Hữu Khánh</h1>
+      <p>Lập trình viên</p>
+    </div>
 
-      <!-- Điều hướng -->
-      <nav class="text-left flex-1">
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="index.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
-            </a>
-          </li>
-          <li>
-            <a
-              href="members.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
-            </a>
-          </li>
+    <!-- Điều hướng -->
+    <nav class="text-left flex-1">
+      <ul class="space-y-2">
+        <li>
+          <a href="index.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
+          </a>
+        </li>
+        <li>
+          <a href="members.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="mt-auto text-gray-400 text-sm">
+      <p class="mb-4">Kết nối với tôi</p>
+      <div class="flex justify-center space-x-4">
+        <a href="https://web.facebook.com/lam.khanh.2005"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/khanhhh0_o/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://github.com/LamKhanh05/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kh%C3%A1nh-l%C3%A2m-43733737a/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+  </aside>
+
+  <!-- Nội dung chính -->
+  <main class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent">
+    <div class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10">
+      <section>
+        <h1 class="text-[#1e3a8a] text-3xl font-bold">
+          Xin chào, tôi là Hữu Khánh!
+        </h1>
+        <p class="text-[20px] mt-2">
+          Chào mừng bạn đến với trang web của tôi!
+        </p>
+        <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
+          <li>Tên đầy đủ: Lâm Hữu Khánh</li>
+          <li>MSSV: 23127205</li>
+          <li>Lớp: 23KTPM1</li>
+          <li>Chuyên ngành: Kỹ thuật phần mềm</li>
         </ul>
-      </nav>
+      </section>
 
-      <!-- Footer -->
-      <footer class="mt-auto text-gray-400 text-sm">
-        <p class="mb-4">Kết nối với tôi</p>
-        <div class="flex justify-center space-x-4">
-          <a
-            href="https://web.facebook.com/lam.khanh.2005"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/khanhhh0_o/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            href="https://github.com/LamKhanh05/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/kh%C3%A1nh-l%C3%A2m-43733737a/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Định hướng
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Hiện tại tôi đang theo học Kỹ thuật phần mềm và định hướng phát
+          triển trong lĩnh vực lập trình web và ứng dụng. Tôi đặc biệt hứng
+          thú với mảng Frontend và mong muốn trở thành một lập trình viên có
+          kỹ năng vững vàng trong việc xây dựng giao diện người dùng hiện đại,
+          thân thiện và hiệu quả.
+          <br /><br />
+          Mục tiêu trước mắt của tôi là tốt nghiệp với tấm bằng giỏi và sớm
+          tìm được một công việc ổn định, nơi tôi có thể vận dụng kiến thức đã
+          học, tiếp tục trau dồi kinh nghiệm thực tế và phát triển bản thân
+          lâu dài trong ngành công nghệ phần mềm.
+        </p>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Sở thích
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Ngoài thời gian học tập và lập trình, tôi luôn duy trì thói quen tập
+          gym để rèn luyện sức khỏe và giữ tinh thần thoải mái. Bên cạnh đó,
+          tôi rất thích nghe nhạc — đây là cách giúp tôi thư giãn và lấy lại
+          năng lượng sau những giờ học và làm việc căng thẳng.
+        </p>
+      </section>
+      <footer class="text-right text-blue-900 font-semibold mt-8">
+        GA02
       </footer>
-    </aside>
+    </div>
 
-    <!-- Nội dung chính -->
-    <main
-      class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent"
-    >
-      <div
-        class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10"
-      >
-        <section>
-          <h1 class="text-[#1e3a8a] text-3xl font-bold">
-            Xin chào, tôi là Hữu Khánh!
-          </h1>
-          <p class="text-[20px] mt-2">
-            Chào mừng bạn đến với trang web của tôi!
-          </p>
-          <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
-            <li>Tên đầy đủ: Lâm Hữu Khánh</li>
-            <li>MSSV: 23127205</li>
-            <li>Lớp: 23KTPM1</li>
-            <li>Chuyên ngành: Kỹ thuật phần mềm</li>
-          </ul>
-        </section>
 
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Định hướng
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Hiện tại tôi đang theo học Kỹ thuật phần mềm và định hướng phát
-            triển trong lĩnh vực lập trình web và ứng dụng. Tôi đặc biệt hứng
-            thú với mảng Frontend và mong muốn trở thành một lập trình viên có
-            kỹ năng vững vàng trong việc xây dựng giao diện người dùng hiện đại,
-            thân thiện và hiệu quả.
-            <br /><br />
-            Mục tiêu trước mắt của tôi là tốt nghiệp với tấm bằng giỏi và sớm
-            tìm được một công việc ổn định, nơi tôi có thể vận dụng kiến thức đã
-            học, tiếp tục trau dồi kinh nghiệm thực tế và phát triển bản thân
-            lâu dài trong ngành công nghệ phần mềm.
-          </p>
-        </section>
+  </main>
+</body>
 
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Sở thích
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Ngoài thời gian học tập và lập trình, tôi luôn duy trì thói quen tập
-            gym để rèn luyện sức khỏe và giữ tinh thần thoải mái. Bên cạnh đó,
-            tôi rất thích nghe nhạc — đây là cách giúp tôi thư giãn và lấy lại
-            năng lượng sau những giờ học và làm việc căng thẳng.
-          </p>
-        </section>
-      </div>
-
-        <footer class="text-right text-blue-900 font-semibold mt-8">
-          GA02
-        </footer>
-    </main>
-  </body>
 </html>

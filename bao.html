@@ -1,159 +1,130 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang của Bảo</title>
 
-    <!-- thư viện sài icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang của Bảo</title>
 
-  </head>
+  <!-- thư viện sài icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-  <body
-    class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
-  >
-    <!-- 🔹 Logo góc phải -->
-    <div
-      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
-             max-[640px]:w-[120px] max-[640px]:h-[120px]"
-    ></div>
+</head>
 
-    <!-- 🔹 Sidebar -->
-    <aside
-      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
+<body
+  class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800">
+  <!-- 🔹 Logo góc phải -->
+  <div class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
+             max-[640px]:w-[120px] max-[640px]:h-[120px]"></div>
+
+  <!-- 🔹 Sidebar -->
+  <aside class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
              transition-all duration-300 ease-in-out 
-             lg:h-screen lg:sticky lg:top-0"
-    >
-      <div class="mb-10">
-        <img
-          src="img/hb.png"
-          onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';"
-          alt="Ảnh đại diện"
-          class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white"
-        />
-        <h1 class="text-xl font-semibold">Lê Mai Hoài Bảo</h1>
-        <p>Lập trình viên</p>
-      </div>
+             lg:h-screen lg:sticky lg:top-0">
+    <div class="mb-10">
+      <img src="img/hb.png" onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';"
+        alt="Ảnh đại diện" class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white" />
+      <h1 class="text-xl font-semibold">Lê Mai Hoài Bảo</h1>
+      <p>Lập trình viên</p>
+    </div>
 
-      <nav class="text-left flex-1">
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="index.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
-            </a>
-          </li>
-          <li>
-            <a
-              href="members.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
-            </a>
-          </li>
+    <nav class="text-left flex-1">
+      <ul class="space-y-2">
+        <li>
+          <a href="index.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
+          </a>
+        </li>
+        <li>
+          <a href="members.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="mt-auto text-gray-400 text-sm">
+      <p class="mb-4">Kết nối với tôi</p>
+      <div class="flex justify-center space-x-4">
+        <a href="https://www.facebook.com/tuitenlalemaihoaibao/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/hoaichaobai/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://github.com/HB4305"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/b%E1%BA%A3o-l%C3%AA-b09435379/"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+  </aside>
+
+  <!-- Nội dung chính -->
+  <main class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent">
+    <div class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10">
+      <section>
+        <h1 class="text-[#1e3a8a] text-3xl font-bold">
+          Xin chào, tôi là Hoài Bảo!
+        </h1>
+        <p class="text-[20px] mt-2">
+          Chào mừng bạn đến với trang web của tôi!
+        </p>
+        <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
+          <li>Tên đầy đủ: Lê Mai Hoài Bảo</li>
+          <li>MSSV: 23127326</li>
+          <li>Lớp: 23KTPM1</li>
+          <li>Chuyên ngành: Kỹ thuật phần mềm</li>
         </ul>
-      </nav>
+      </section>
 
-      <footer class="mt-auto text-gray-400 text-sm">
-        <p class="mb-4">Kết nối với tôi</p>
-        <div class="flex justify-center space-x-4">
-          <a
-            href="https://www.facebook.com/tuitenlalemaihoaibao/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/hoaichaobai/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            href="https://github.com/HB4305"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/b%E1%BA%A3o-l%C3%AA-b09435379/"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </div>
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Định hướng
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Hiện tại tôi theo học Kỹ thuật phần mềm, tôi sớm nhận ra mình đặc
+          biệt có hứng thú với mảng Frontend. Mục tiêu trước mắt của tôi là
+          trở thành một Lập trình viên Frontend thật cứng tay. Để làm được
+          điều đó, tôi biết chỉ học kiến thức ở trường là chưa đủ. Vì vậy, tôi
+          đang chủ động tự học thêm các kỹ năng thiết yếu như HTML, CSS,
+          JavaScript và bắt đầu làm quen với một số framework phổ biến.
+          <br /><br />
+          Tuy nhiên, tôi không định chỉ dừng lại ở việc đi làm lập trình viên.
+          Tôi có một định hướng xa hơn là tiếp tục con đường học thuật. Mục
+          tiêu của tôi là học lên Thạc sĩ và sau này trở thành giảng viên. Tôi
+          thực sự thích ý tưởng được chia sẻ lại những gì mình biết, truyền
+          lửa cho các bạn sinh viên thế hệ sau và góp phần đào tạo thêm nhiều
+          kỹ sư phần mềm giỏi.
+        </p>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Sở thích
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Tất nhiên, bên cạnh thời gian dành cho việc học tập và nghiên cứu
+          lập trình, tôi luôn chú trọng việc cân bằng cuộc sống. Tôi tìm thấy
+          sự thư giãn và rèn luyện thể chất qua các môn thể thao, đặc biệt là
+          cầu lông và bóng chuyền. Những hoạt động này giúp tôi duy trì sức
+          khỏe, sự tập trung và tinh thần đồng đội. Ngoài ra, những lúc rảnh
+          rỗi, tôi cũng giải trí bằng cách chơi game, đó là cách hiệu quả để
+          tái tạo năng lượng sau những giờ học tập.
+        </p>
+      </section>
+      <footer class="text-right text-blue-900 font-semibold mt-8">
+        GA02
       </footer>
-    </aside>
+    </div>
 
-    <!-- Nội dung chính -->
-    <main
-      class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent"
-    >
-      <div
-        class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10"
-      >
-        <section>
-          <h1 class="text-[#1e3a8a] text-3xl font-bold">
-            Xin chào, tôi là Hoài Bảo!
-          </h1>
-          <p class="text-[20px] mt-2">
-            Chào mừng bạn đến với trang web của tôi!
-          </p>
-          <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
-            <li>Tên đầy đủ: Lê Mai Hoài Bảo</li>
-            <li>MSSV: 23127326</li>
-            <li>Lớp: 23KTPM1</li>
-            <li>Chuyên ngành: Kỹ thuật phần mềm</li>
-          </ul>
-        </section>
 
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Định hướng
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Hiện tại tôi theo học Kỹ thuật phần mềm, tôi sớm nhận ra mình đặc
-            biệt có hứng thú với mảng Frontend. Mục tiêu trước mắt của tôi là
-            trở thành một Lập trình viên Frontend thật cứng tay. Để làm được
-            điều đó, tôi biết chỉ học kiến thức ở trường là chưa đủ. Vì vậy, tôi
-            đang chủ động tự học thêm các kỹ năng thiết yếu như HTML, CSS,
-            JavaScript và bắt đầu làm quen với một số framework phổ biến.
-            <br /><br />
-            Tuy nhiên, tôi không định chỉ dừng lại ở việc đi làm lập trình viên.
-            Tôi có một định hướng xa hơn là tiếp tục con đường học thuật. Mục
-            tiêu của tôi là học lên Thạc sĩ và sau này trở thành giảng viên. Tôi
-            thực sự thích ý tưởng được chia sẻ lại những gì mình biết, truyền
-            lửa cho các bạn sinh viên thế hệ sau và góp phần đào tạo thêm nhiều
-            kỹ sư phần mềm giỏi.
-          </p>
-        </section>
+  </main>
+</body>
 
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Sở thích
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Tất nhiên, bên cạnh thời gian dành cho việc học tập và nghiên cứu
-            lập trình, tôi luôn chú trọng việc cân bằng cuộc sống. Tôi tìm thấy
-            sự thư giãn và rèn luyện thể chất qua các môn thể thao, đặc biệt là
-            cầu lông và bóng chuyền. Những hoạt động này giúp tôi duy trì sức
-            khỏe, sự tập trung và tinh thần đồng đội. Ngoài ra, những lúc rảnh
-            rỗi, tôi cũng giải trí bằng cách chơi game, đó là cách hiệu quả để
-            tái tạo năng lượng sau những giờ học tập.
-          </p>
-        </section>
-      </div>
-
-        <footer class="text-right text-blue-900 font-semibold mt-8">
-          GA02
-        </footer>
-    </main>
-  </body>
 </html>

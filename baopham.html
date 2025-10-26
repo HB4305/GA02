@@ -1,129 +1,108 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang của Bảo Phạm</title>
 
-    <!-- thư viện sài icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang của Bảo Phạm</title>
 
-  <body
-    class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
-  >
-    <div
-      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain max-[640px]:w-[120px] max-[640px]:h-[120px]"
-    ></div>
-    <aside
-      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center transition-all duration-300 ease-in-out lg:h-screen lg:sticky lg:top-0"
-    >
-      <div class="mb-10">
-        <img
-          src="img/Bảo.jpeg"
-          onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';"
-          alt="Ảnh đại diện"
-          class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white"
-        />
-        <h1 class="text-xl font-semibold">Phạm Lê Thái Bảo</h1>
-        <p>Software Engineer, Cloud Engineer</p>
+  <!-- thư viện sài icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body
+  class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800">
+  <div
+    class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain max-[640px]:w-[120px] max-[640px]:h-[120px]">
+  </div>
+  <aside
+    class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center transition-all duration-300 ease-in-out lg:h-screen lg:sticky lg:top-0">
+    <div class="mb-10">
+      <img src="img/Bảo.jpeg"
+        onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';" alt="Ảnh đại diện"
+        class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white" />
+      <h1 class="text-xl font-semibold">Phạm Lê Thái Bảo</h1>
+      <p>Software Engineer, Cloud Engineer</p>
+    </div>
+
+    <nav class="text-left flex-1">
+      <ul class="space-y-2">
+        <li>
+          <a href="index.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
+          </a>
+        </li>
+        <li>
+          <a href="members.html"
+            class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300">
+            <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="mt-auto text-gray-400 text-sm">
+      <p class="mb-4">Kết nối với tôi</p>
+      <div class="flex justify-center space-x-4">
+        <a href="https://web.facebook.com/bao.pham.26344"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://github.com/JayceCoder21012005i"
+          class="text-gray-300 text-xl hover:text-white transition-colors duration-200"><i
+            class="fab fa-github"></i></a>
       </div>
+    </footer>
+  </aside>
 
-      <nav class="text-left flex-1">
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="index.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
-            </a>
-          </li>
-          <li>
-            <a
-              href="members.html"
-              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
-            >
-              <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
-            </a>
-          </li>
+  <!-- Nội dung chính -->
+  <main class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent">
+    <div class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10">
+      <section>
+        <h1 class="text-[#1e3a8a] text-3xl font-bold">
+          Xin chào, tôi là Bảo Phạm!
+        </h1>
+        <p class="text-[20px] mt-2">
+          Chào mừng bạn đến với trang web của tôi!
+        </p>
+        <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
+          <li>Tên đầy đủ: Phạm Lê Thái Bảo</li>
+          <li>MSSV: 23127159</li>
+          <li>Lớp: 23KTPM1</li>
+          <li>Chuyên ngành: Công nghệ thông tin</li>
         </ul>
-      </nav>
+      </section>
 
-      <footer class="mt-auto text-gray-400 text-sm">
-        <p class="mb-4">Kết nối với tôi</p>
-        <div class="flex justify-center space-x-4">
-          <a
-            href="https://web.facebook.com/bao.pham.26344"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            href="https://github.com/JayceCoder21012005i"
-            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
-            ><i class="fab fa-github"></i
-          ></a>
-        </div>
-      </footer>
-    </aside>
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Định hướng
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Tôi mong muốn trở thành một Software Engineer chuyên nghiệp, đồng
+          thời phát triển kỹ năng trong lĩnh vực Cloud Computing để đóng góp
+          vào các dự án công nghệ hiện đại.
+        </p>
+      </section>
 
-    <!-- Nội dung chính -->
-    <main
-      class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent"
-    >
-      <div
-        class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10"
-      >
-        <section>
-          <h1 class="text-[#1e3a8a] text-3xl font-bold">
-            Xin chào, tôi là Bảo Phạm!
-          </h1>
-          <p class="text-[20px] mt-2">
-            Chào mừng bạn đến với trang web của tôi!
-          </p>
-          <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
-            <li>Tên đầy đủ: Phạm Lê Thái Bảo</li>
-            <li>MSSV: 23127159</li>
-            <li>Lớp: 23KTPM1</li>
-            <li>Chuyên ngành: Công nghệ thông tin</li>
-          </ul>
-        </section>
-
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Định hướng
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Tôi mong muốn trở thành một Software Engineer chuyên nghiệp, đồng
-            thời phát triển kỹ năng trong lĩnh vực Cloud Computing để đóng góp
-            vào các dự án công nghệ hiện đại.
-          </p>
-        </section>
-
-        <section class="mt-10">
-          <h2
-            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
-          >
-            Sở thích
-          </h2>
-          <p class="text-[20px] mt-3 leading-relaxed">
-            Tôi yêu thích công việc lập trình, đặc biệt là tìm ra những điều mới
-            mẻ mỗi khi làm 1 dự án nào đó.
-            <br />
-            Bên cạnh đó, tôi cũng là 1 người thích các hoạt động thể thao như
-            bóng chuyền, bóng đá,... Ngoài việc học tập thì tôi cũng rất chú
-            trọng đến rèn luyện sức khỏe
-          </p>
-        </section>
-      </div>
-
+      <section class="mt-10">
+        <h2 class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2">
+          Sở thích
+        </h2>
+        <p class="text-[20px] mt-3 leading-relaxed">
+          Tôi yêu thích công việc lập trình, đặc biệt là tìm ra những điều mới
+          mẻ mỗi khi làm 1 dự án nào đó.
+          <br />
+          Bên cạnh đó, tôi cũng là 1 người thích các hoạt động thể thao như
+          bóng chuyền, bóng đá,... Ngoài việc học tập thì tôi cũng rất chú
+          trọng đến rèn luyện sức khỏe
+        </p>
+      </section>
       <footer class="text-right text-blue-900 font-semibold mt-8">GA02</footer>
-    </main>
-  </body>
+    </div>
+
+
+  </main>
+</body>
+
 </html>
