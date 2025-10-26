@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thành viên - Nhóm PTUDW</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body
+    class="flex min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-[center_center] bg-fixed bg-[cover] font-sans text-gray-800"
+  >
+    <div
+      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
+    ></div>
+
+    <!-- Sidebar -->
+    <aside
+      class="w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 h-screen sticky top-0 text-center"
+    >
+      <div class="mb-10">
+        <img
+          src="img/logo_KHTN.png"
+          onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Nhóm';"
+          alt="Ảnh nhóm"
+          class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white"
+        />
+        <h1 class="text-lg font-bold">Nhóm học tập</h1>
+        <p class="text-sm text-gray-300 mt-1">PTUDW</p>
+      </div>
+
+      <nav class="text-left">
+        <ul class="space-y-2">
+          <li>
+            <a
+              href="index.html"
+              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
+            >
+              <i class="fas fa-home w-6 text-center mr-3"></i>
+              Trang chủ
+            </a>
+          </li>
+          <li>
+            <a
+              href="members.html"
+              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg bg-blue-800 text-white translate-x-1 shadow-md"
+            >
+              <i class="fas fa-users w-6 text-center mr-3"></i>
+              Thành viên
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <footer class="mt-auto text-center text-gray-400 text-sm">
+        <p class="mb-2">Kết nối với tôi</p>
+        <a
+          href="https://www.facebook.com/share/g/19oiQixM4S/"
+          class="text-white text-xl hover:text-blue-400 transition-colors duration-300"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </footer>
+    </aside>
+
+    <!-- Main content -->
+    <main class="flex-grow min-w-0 p-10">
+      <div
+        class="bg-white/95 rounded-xl shadow-md max-w-[calc(100%-240px)] mt-16 p-10 mx-auto"
+      >
+        <h1 class="text-center text-2xl font-bold text-blue-900 mb-10">
+          Thành viên nhóm PTUDW
+        </h1>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center"
+        >
+          <!-- Thành viên 1 -->
+          <div
+            class="bg-white shadow-md rounded-xl overflow-hidden w-[220px] text-center hover:scale-105 transition-transform duration-300"
+          >
+            <a href="khanh.html">
+              <img
+                src="img/khanh.png"
+                onerror="this.onerror=null;this.src='https://placehold.co/200x220/E2E8F0/1E3A8A?text=Ảnh';"
+                class="w-full h-[220px] object-cover"
+              />
+            </a>
+            <div class="p-3 bg-blue-900 text-white">
+              <a
+                href="khanh.html"
+                class="font-semibold hover:text-blue-200 transition-colors duration-300"
+              >
+                Lâm Hữu Khánh
+              </a>
+            </div>
+          </div>
+
+          <!-- Thành viên 2 -->
+          <div
+            class="bg-white shadow-md rounded-xl overflow-hidden w-[220px] text-center hover:scale-105 transition-transform duration-300"
+          >
+            <a href="bao.html">
+              <img
+                src="img/hb.png"
+                onerror="this.onerror=null;this.src='https://placehold.co/200x220/E2E8F0/1E3A8A?text=Ảnh';"
+                class="w-full h-[220px] object-cover"
+              />
+            </a>
+            <div class="p-3 bg-blue-900 text-white">
+              <a
+                href="bao.html"
+                class="font-semibold hover:text-blue-200 transition-colors duration-300"
+              >
+                Lê Mai Hoài Bảo
+              </a>
+            </div>
+          </div>
+
+          <!-- Thành viên 3 -->
+          <div
+            class="bg-white shadow-md rounded-xl overflow-hidden w-[220px] text-center hover:scale-105 transition-transform duration-300"
+          >
+            <a href="baopham.html">
+              <img
+                src="img/Bảo.jpeg"
+                onerror="this.onerror=null;this.src='https://placehold.co/200x220/E2E8F0/1E3A8A?text=Ảnh';"
+                class="w-full h-[220px] object-cover"
+              />
+            </a>
+            <div class="p-3 bg-blue-900 text-white">
+              <a
+                href="baopham.html"
+                class="font-semibold hover:text-blue-200 transition-colors duration-300"
+              >
+                Phạm Lê Thái Bảo
+              </a>
+            </div>
+          </div>
+
+          <!-- Thành viên 4 -->
+          <div
+            class="bg-white shadow-md rounded-xl overflow-hidden w-[220px] text-center hover:scale-105 transition-transform duration-300"
+          >
+            <a href="ta.html">
+              <img
+                src="img/1.gif"
+                onerror="this.onerror=null;this.src='https://placehold.co/200x220/E2E8F0/1E3A8A?text=Ảnh';"
+                class="w-full h-[220px] object-cover"
+              />
+            </a>
+            <div class="p-3 bg-blue-900 text-white">
+              <a
+                href="ta.html"
+                class="font-semibold hover:text-blue-200 transition-colors duration-300"
+              >
+                Vũ Thế Anh
+              </a>
+            </div>
+          </div>
+
+          <!-- Thành viên 5 -->
+          <div
+            class="bg-white shadow-md rounded-xl overflow-hidden w-[220px] text-center hover:scale-105 transition-transform duration-300"
+          >
+            <a href="khai.html">
+              <img
+                src="img/vk.jpg"
+                onerror="this.onerror=null;this.src='https://placehold.co/200x220/E2E8F0/1E3A8A?text=Ảnh';"
+                class="w-full h-[220px] object-cover"
+              />
+            </a>
+            <div class="p-3 bg-blue-900 text-white">
+              <a
+                href="khai.html"
+                class="font-semibold hover:text-blue-200 transition-colors duration-300"
+              >
+                Nguyễn Phạm Văn Khải
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="fixed bottom-0 right-0 p-3 text-blue-900 font-semibold">
+          GA01
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
