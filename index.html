@@ -11,19 +11,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body
     class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
   >
+    <!-- 🔹 Logo góc phải -->
     <div
-      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
+      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
+             max-[640px]:w-[120px] max-[640px]:h-[120px]"
     ></div>
 
     <!-- 🔹 Sidebar -->
     <aside
-      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 lg:h-screen sticky top-0 text-center"
+      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
+             transition-all duration-300 ease-in-out 
+             lg:h-screen lg:sticky lg:top-0"
     >
       <div class="mb-10">
         <img
@@ -71,7 +74,9 @@
     </aside>
 
     <!-- 🔹 Nội dung chính -->
-    <main class="flex-grow min-w-0 p-4 sm:p-8">
+    <main
+      class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent"
+    >
       <div
         class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10"
       >
@@ -84,11 +89,11 @@
         <!-- Giới thiệu -->
         <section class="mt-8">
           <h2
-            class="text-lg sm:text-xl font-semibold text-blue-900 border-b-2 border-gray-200 pb-2"
+            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
           >
             Giới thiệu
           </h2>
-          <p class="text-base sm:text-[18px] mt-4 leading-relaxed">
+          <p class="text-base sm:text-[20px] mt-4 leading-relaxed">
             Xin chào mọi người! Chúng tôi là một nhóm học tập được thành lập để
             cùng nhau chinh phục đồ án môn Phát triển ứng dụng Web.
             <br /><br />
@@ -104,11 +109,11 @@
         <!-- Mục tiêu -->
         <section class="mt-8">
           <h2
-            class="text-lg sm:text-xl font-semibold text-blue-900 border-b-2 border-gray-200 pb-2"
+            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
           >
             Mục tiêu
           </h2>
-          <p class="text-base sm:text-[18px] mt-4 leading-relaxed">
+          <p class="text-base sm:text-[20px] mt-4 leading-relaxed">
             Mục tiêu của nhóm chúng mình trong môn học này rất rõ ràng. Chúng
             mình không chỉ muốn nắm bắt thật nhiều kiến thức chuyên môn, mà còn
             quyết tâm vận dụng chúng để xây dựng thành công một trang web hoàn
@@ -118,7 +123,7 @@
         </section>
 
         <footer class="text-right text-blue-900 font-semibold mt-10">
-          GA01
+          GA02
         </footer>
       </div>
     </main>

@@ -11,17 +11,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body
     class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
   >
+    <!-- 🔹 Logo góc phải -->
     <div
-      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
+      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain 
+             max-[640px]:w-[120px] max-[640px]:h-[120px]"
     ></div>
+
+    <!-- 🔹 Sidebar -->
     <aside
-      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 lg:h-screen sticky top-0 text-center"
+      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 text-center 
+             transition-all duration-300 ease-in-out 
+             lg:h-screen lg:sticky lg:top-0"
     >
       <div class="mb-10">
         <img
@@ -83,9 +89,11 @@
     </aside>
 
     <!-- Nội dung chính -->
-    <main class="flex-grow min-w-0 p-6 sm:p-10">
+    <main
+      class="flex-grow min-w-0 p-4 sm:p-8 bg-white/95 rounded-t-3xl lg:rounded-none lg:bg-transparent"
+    >
       <div
-        class="bg-white/95 rounded-xl shadow-md w-full mt-10 p-6 sm:p-10 mx-auto"
+        class="bg-white/95 rounded-xl shadow-md w-full mt-4 sm:mt-10 p-4 sm:p-10"
       >
         <section>
           <h1 class="text-[#1e3a8a] text-3xl font-bold">
@@ -144,7 +152,7 @@
       </div>
 
         <footer class="text-right text-blue-900 font-semibold mt-8">
-          GA01
+          GA02
         </footer>
     </main>
   </body>
