@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang của Thế Anh</title>
+
+    <!-- thư viện sài icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="flex flex-col lg:flex-row min-h-screen bg-[url('img/bg.png')] bg-no-repeat bg-center bg-fixed bg-cover font-sans text-gray-800"
+  >
+    <div
+      class="fixed top-5 right-5 w-[200px] h-[200px] bg-[url('img/logo.png')] bg-no-repeat bg-contain"
+    ></div>
+    <aside
+      class="w-full lg:w-[300px] flex-shrink-0 bg-blue-900 text-white flex flex-col p-6 lg:h-screen sticky top-0 text-center"
+    >
+      <!-- hình nền -->
+      <div class="mb-10">
+        <img
+          src="img/1.gif"
+          onerror="this.onerror=null;this.src='https://placehold.co/112x112/E2E8F0/1E3A8A?text=Ava';"
+          alt="Ảnh đại diện"
+          class="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white/50 object-cover bg-white"
+        />
+        <h1 class="text-xl font-semibold">Vũ Thế Anh</h1>
+        <p>Sinh viên năm bar</p>
+      </div>
+
+      <!-- điều hướng -->
+      <nav class="text-left flex-1">
+        <ul class="space-y-2">
+          <li>
+            <a
+              href="index.html"
+              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
+            >
+              <i class="fas fa-home w-6 text-center mr-3"></i> Trang chủ
+            </a>
+          </li>
+          <li>
+            <a
+              href="members.html"
+              class="flex items-center px-4 py-3 rounded-lg font-medium text-lg text-white hover:bg-blue-800 hover:translate-x-1 transition-all duration-300"
+            >
+              <i class="fas fa-users w-6 text-center mr-3"></i> Thành viên
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- footer liên kết -->
+
+      <footer class="mt-auto text-gray-400 text-sm">
+        <p class="mb-4">Kết nối với tôi</p>
+        <div class="flex justify-center space-x-4">
+          <a
+            href="https://www.facebook.com/theanh.vu205"
+            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/theanh_vu205/"
+            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/tiiayyluvbear"
+            class="text-gray-300 text-xl hover:text-white transition-colors duration-200"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </footer>
+    </aside>
+
+    <!-- Nội dung-->
+    <main class="flex-grow min-w-0 p-6 sm:p-10">
+      <div
+        class="bg-white/95 rounded-xl shadow-md w-full mt-10 p-6 sm:p-10 mx-auto"
+      >
+        <section>
+          <h1 class="text-[#1e3a8a] text-3xl font-bold">
+            Xin chào, tôi là Thế Anh!
+          </h1>
+          <h2
+            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
+          >
+            Thông tin cá nhân
+          </h2>
+          <p class="text-[20px] mt-2">
+            Chào mừng bạn đến với trang web của tôi!
+          </p>
+          <ul class="text-[20px] list-disc pl-5 mt-3 space-y-1">
+            <li>Tên đầy đủ: Vũ Thế Anh</li>
+            <li>MSSV: 23127263</li>
+            <li>Lớp: 23KTPM1</li>
+            <li>Chuyên ngành: Công nghệ tri thức</li>
+          </ul>
+        </section>
+
+        <section class="mt-10">
+          <h2
+            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
+          >
+            Định hướng
+          </h2>
+          <p class="text-[20px] mt-3 leading-relaxed">
+            Tôi có định hướng với hướng An toàn thông tin. Mục tiêu của tôi là
+            một vị trí trong những công ty chuyên về Bảo mật. Ngoài ra, tôi cũng
+            đang tìm hiểu thêm những mảng liên quan tới ứng dụng, các công cụ AI
+            để bổ sung kiến thức cho cá nhân.
+          </p>
+          <p class="text-[20px] mt-3 leading-relaxed">
+            Trước mắt, tôi cần tập trung cho việc học tập tại trường. Tôi đang
+            cố gắng để có được tấm bằng giỏi, có thể tìm thêm đề tài nghiến cứu.
+            Nếu có thời gian rảnh, tôi sẽ tham gia vào một vài công việc thực
+            tập để tích lũy thêm kĩ năng, kinh nghiệm thực tế.
+          </p>
+        </section>
+
+        <section class="mt-10">
+          <h2
+            class="text-[#1e3a8a] text-2xl font-semibold border-b-2 border-gray-200 pb-2"
+          >
+            Sở thích
+          </h2>
+          <p class="text-[20px] mt-3 leading-relaxed">
+            Ngoài những lúc học tập và làm việc, tôi cũng giành thời gian cho
+            các hoạt động thể thao Tôi thường hay chơi cầu lông vào thời gian
+            rảnh. Thỉnh thoảng, tôi cũng hay chơi billard hoặc đi ăn, xem phim
+            cùng bạn bè.
+          </p>
+        </section>
+        <footer class="text-right text-blue-900 font-semibold mt-8">
+          GA01
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
